@@ -295,7 +295,7 @@ CountOfSymbol(i) = Asc(Mid(Trim(txtsymbol), i, 1))
 Next
  IfSuccess = Random_X(1, 0, Len(Trim(txtsymbol)), Result, False)
 
-Print Result(0)
+
 
 Result(0) = CountOfSymbol(Result(0))
 
